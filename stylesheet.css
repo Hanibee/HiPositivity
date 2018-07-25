@@ -2,5 +2,44 @@ body {
   background-image: url("images/background1.svg");
 background-size: cover;
 background-repeat: no-repeat;
+font-size: 5vw;
+
+}
+#cloud {
+  background-image: url("images/cloud.svg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 449.4px;
+height: 308.74px;
+display: inline-block;
+}
+
+#intro {
+margin: 15%;
+font-family: 'Rock Salt', cursive;
+font-size: 1em;
+}
+
+h3 {
+font-size: 1.5em;
+margin-bottom: 0em;
+margin-top: 2.3em;
+}
+
+h1 {
+  float: right;
+  font-size: 1em;
+font-family: 'Rock Salt', cursive;
+
+}
+
+h2 {
+  float: left;
+  font-size: 1em;
+font-family: 'Rock Salt', cursive;
+}
+
+
+@media only screen and (min-width: 770px) {
 
 }
